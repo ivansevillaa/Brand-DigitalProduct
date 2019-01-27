@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Este es un sitio de producto muy bueno">
+    <title>Brand</title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    
+    <nav class="nav fadeInDown">
+        <a href="index.html">
+            <figure class="nav-image">
+                <img src="images/logo.png" alt="logo">
+            </figure>
+        </a>
+        <div class="nav-options">
+            <ul class="nav-options-list">
+                <li>
+                    <a href="https://twitter.com/ivansevillaa" target="_blank" class="link">Faqs</a>
+                </li>
+                <li>
+                    <a href="index.html" class="link">Back to menu</a>
+                <li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container sale">
+        <div class="row">
+            <div class="col-4">
+                <div class="modulo-pago">
+                    <figure class="modulo-pago-images">
+                        <img src="images/box2.png" alt="">
+                    </figure>
+                    <h3>Producto 1</h3>
+                    <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos.</p>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="modulo-pago">
+                    <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4NADP9RR3CKBS" method="post">
+                        <label class="label-pay" for="name">Nombre</label>
+                        <br>
+                        <input class="data" type="text" placeholder="" name="name">
+                        <br>
+                        <label class="label-pay" for="email">E-mail</label>
+                        <br>
+                        <input class="data" type="text" placeholder="" name="email">
+                        <br>
+                        <label class="label-pay" for="telefono">Teléfono</label>
+                        <br>
+                        <input class="data" type="text" placeholder="" name="telefono">
+                        <br>
+                        <input type="submit" class="product-button" name="submit" value="Confirmar pago">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <a href="https://twitter.com/ivansevillaa" target="_blank" >Términos y condiciones</a>
+        <a href="https://twitter.com/ivansevillaa" target="_blank" >contacto@mail.com</a>
+    </footer>
+
+</body>
+</html>
